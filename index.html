@@ -5,13 +5,23 @@
   <link rel="stylesheet" type="text/css" href="stacks.css">
 </head>
 <body>
-  <p id="eventdisp"></p>
+  <p id="eventdisp" onclick="Copy()"></p>
 </body>
 <script>
   document.addEventListener('keydown', DisplayKey);
+  let code;
   function DisplayKey (e) {
     console.log(e);
-    document.getElementById("eventdisp").innerHTML = e.code;
+    code = e.code;
+    document.getElementById("eventdisp").innerHTML = code;
+  }
+  function Copy () {
+    let textArea = document.createElement("textarea");
+    textArea.value = code;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
   }
 </script>
 </html>

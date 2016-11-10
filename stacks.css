@@ -1,5 +1,5 @@
 #eventdisp {
-  font-size: 482px;
+  font-size: 20vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: center;
   color: #CE5A57;
@@ -15,8 +15,12 @@
                0px 8px #941714,
                0px 9px #941714,
                0px 10px #941714;
+  word-break: break-all;
+  user-select: none;
 }
+
 html {
   background: #78A5A3;
-  overflow: hidden;
+  overflow: auto;
+  cursor: context-menu;
 }
