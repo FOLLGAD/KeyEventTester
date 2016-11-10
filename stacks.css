@@ -1,0 +1,22 @@
+#eventdisp {
+  font-size: 482px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  color: #CE5A57;
+  padding: 0;
+  margin: auto;
+  text-shadow: 0px 1px #941714,
+               0px 2px #941714,
+               0px 3px #941714,
+               0px 4px #941714,
+               0px 5px #941714,
+               0px 6px #941714,
+               0px 7px #941714,
+               0px 8px #941714,
+               0px 9px #941714,
+               0px 10px #941714;
+}
+html {
+  background: #78A5A3;
+  overflow: hidden;
+}
