@@ -2,25 +2,25 @@
   font-size: 20vw;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: center;
-  color: #FF9800;
+  color: #FFC107;
   padding: 0;
   margin: auto;
-  text-shadow: 0px 1px #F57C00,
-               0px 2px #F57C00,
-               0px 3px #F57C00,
-               0px 4px #F57C00,
-               0px 5px #F57C00,
-               0px 6px #F57C00,
-               0px 7px #F57C00,
-               0px 8px #F57C00,
-               0px 9px #F57C00,
-               0px 10px #F57C00;
+  text-shadow: 0px 1px #FFA000,
+               0px 2px #FFA000,
+               0px 3px #FFA000,
+               0px 4px #FFA000,
+               0px 5px #FFA000,
+               0px 6px #FFA000,
+               0px 7px #FFA000,
+               0px 8px #FFA000,
+               0px 9px #FFA000,
+               0px 10px #FFA000;
   word-break: break-all;
   user-select: none;
 }
 
 html {
-  background: #78A5A3;
+  background: #B0BEC5;
   overflow: auto;
   cursor: context-menu;
 }
